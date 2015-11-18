@@ -1,0 +1,9 @@
+[user]
+  name = Oscar Persson
+  email = dallas.persson@gmail.com
+[alias]
+  st = status
+  pb = pull --rebase --prune
+  ci = commit
+  co = checkout
+  up = !git pull --rebase --prune $@ && git submodule update --init --recursice
