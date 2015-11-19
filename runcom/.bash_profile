@@ -1,5 +1,5 @@
-if [ -d "$HOME/projects/dotfiles" ]; then
-    DOTFILES_DIR="$HOME/projects/dotfiles"
+if [ -d "$HOME/.dotfiles" ]; then
+    DOTFILES_DIR="$HOME/.dotfiles"
 else
     echo "Unable to find dotfiles, exiting."
     return # `exit 1` would quit the shell itself
