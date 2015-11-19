@@ -3,5 +3,5 @@
 ## Usage
 Give `install.sh` executed permissions:
 ```
-chmod -x ./install.sh
+chmod +x ./install.sh
 ```
