@@ -7,6 +7,6 @@ fi
 
 # Finally we can source the dotfiles (order matters)
 
-for DOTFILE in "$DOTFILES_DIR"/system/.{functions,env,alias}; do
+for DOTFILE in "$DOTFILES_DIR"/system/.{functions,env,alias,prompt}; do
     [ -f "$DOTFILE" ] && . "$DOTFILE"
 done
