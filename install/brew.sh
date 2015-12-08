@@ -17,6 +17,7 @@ brew install caskroom/cask/brew-cask
 apps=(
   atom
   iterm2
+  git
   heroku-toolbelt
   spotify
   slack
