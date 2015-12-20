@@ -18,3 +18,4 @@ ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
 # Package managers & packages
 
 . "$DOTFILES_DIR/install/brew.sh"
+. "$DOTFILES_DIR/install/npm.sh"
