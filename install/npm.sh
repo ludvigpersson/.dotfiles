@@ -3,9 +3,9 @@ brew install nvm
 mkdir -p ~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
-nvm install 4.2
-nvm use 4.2
-nvm alias default 4.2
+nvm install 5.6
+nvm use 5.6
+nvm alias default 5.6
 
 # Globally install with npm
 
