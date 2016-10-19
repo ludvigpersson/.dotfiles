@@ -1,6 +1,8 @@
 [user]
   name = Oscar Persson
   email = dallas.persson@gmail.com
+[push]
+  default = simple
 [alias]
   st = status
   pb = pull --rebase --prune
