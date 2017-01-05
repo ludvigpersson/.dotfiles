@@ -1,4 +1,4 @@
-# Oscar's dotfiles
+# Ludde's dotfiles
 
 ## Usage
 Give `install.sh` executed permissions:
