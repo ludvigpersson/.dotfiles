@@ -9,7 +9,7 @@ CLGIT='\[\033[00;32m\]'
 CLCOLON='\[\033[00;37m\]'
 CLRESET='\[\033[00m\]'
 ARROWICON=⚡️
-PS1="$CLUSERHOST\u@\h$CLCOLON:$CLPATH\w$CLGIT\$(parse_git_branch)$CLRESET\\n\$ARROWICON "
+PS1="$CLUSERHOST\u@\h$CLCOLON:$CLPATH\w$CLGIT\$(parse_git_branch)$CLRESET\\n\$ARROWICON  "
 
 
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
