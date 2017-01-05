@@ -18,11 +18,6 @@ apps=(
   atom
   iterm2
   git
-  heroku-toolbelt
-  spotify
-  slack
-  skype
-  tunnelblick
 )
 
 echo ">>> Installing cask apps"
